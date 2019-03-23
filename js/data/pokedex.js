@@ -12639,16 +12639,16 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"w": 920.0,
 	},
 	"Muk-Alola": {
-		"t1": "Poison",
-		"t2": "Dark",
-		"bs": {
-			"hp": 105,
-			"at": 105,
-			"df": 75,
-			"sa": 65,
-			"sd": 100,
-			"sp": 50
-		},
+		"t1": "Poison", 
+"t2": "Dark",
+"bs": { 
+"hp": 120, 
+"at": 125, 
+"df": 125, 
+"sa": 70,
+"sd": 115, 
+"sp": 45 
+},
 		"w": 52.0,
 		"isAlternateForme": true
 	},
@@ -12667,15 +12667,15 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"canEvolve": true
 	},
 	"Naganadel": {
-		"t1": "Poison",
-		"t2": "Dragon",
-		"bs": {
-			"hp": 73,
-			"at": 73,
-			"df": 73,
-			"sa": 127,
-			"sd": 73,
-			"sp": 121
+"t1": "Poison", 
+"t2": "Dragon",
+"bs": { 
+"hp": 73, 
+"at": 53, 
+"df": 83, 
+"sa": 179,
+"sd": 83, 
+"sp": 129 
 		},
 		"w": 150.0,
 		"ab": "Beast Boost",
@@ -13564,15 +13564,16 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"gender": "genderless"
 	},
 	"Tapu Koko": {
-		"t1": "Electric",
-		"t2": "Fairy",
-		"bs": {
-			"hp": 70,
-			"at": 115,
-			"df": 85,
-			"sa": 95,
-			"sd": 75,
-			"sp": 130
+		"t1": "Electric", 
+"t2": "Fairy",
+"bs": { 
+"hp": 85, 
+"at": 125, 
+"df": 80, 
+"sa": 125,
+"sd": 80, 
+"sp": 135 
+}, 
 		},
 		"w": 20.5,
 		"ab": "Electric Surge",
