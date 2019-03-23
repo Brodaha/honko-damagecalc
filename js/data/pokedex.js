@@ -13561,6 +13561,7 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 "sa": 110,
 "sd": 140, 
 "sp": 80 
+},
 		"w": 21.2,
 		"ab": "Misty Surge",
 		"gender": "genderless"
