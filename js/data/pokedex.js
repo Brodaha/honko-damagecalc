@@ -2080,10 +2080,7 @@ var POKEDEX_RBY = {
 		"w": 12.0
 	},
 	"Zapdos": {
-		"t1": "Electric",
-		"t2": "Flying",
-		"bs": {
-			"t1": "Electric", 
+		"t1": "Electric", 
 "t2": "Flying",
 "bs": { 
 "hp": 115, 
