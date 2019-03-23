@@ -110,7 +110,6 @@ var POKEDEX_RBY = {
 	},
 	"Blastoise": {
 "t1": "Water", 
-"t2": "undefined",
 "bs": { 
 "hp": 98, 
 "at": 101, 
@@ -3433,7 +3432,6 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
 var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
 "Absol": {
 "t1": "Dark", 
-"t2": "undefined",
 "bs": { 
 "hp": 95, 
 "at": 135, 
