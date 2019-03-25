@@ -70,12 +70,12 @@ var POKEDEX_RBY = {
 		"t1": "Ice",
 		"t2": "Flying",
 		"bs": {
-			"hp": 90,
-			"at": 85,
-			"df": 100,
-			"sa": 95,
-			"sd": 125,
-			"sp": 85,
+			"hp": 115, 
+"at": 85, 
+"df": 100, 
+"sa": 135,
+"sd": 125, 
+"sp": 120,
 			"sl": 125
 		},
 		"w": 55.4
@@ -112,12 +112,12 @@ var POKEDEX_RBY = {
 	"Blastoise": {
 		"t1": "Water",
 		"bs": {
-			"hp": 79,
-			"at": 83,
-			"df": 100,
-			"sa": 85,
-			"sd": 105,
-			"sp": 78,
+			"hp": 98, 
+"at": 101, 
+"df": 120, 
+"sa": 97,
+"sd": 111, 
+"sp": 48,
 			"sl": 85
 		},
 		"w": 85.5
@@ -183,11 +183,11 @@ var POKEDEX_RBY = {
 		"t2": "Flying",
 		"bs": {
 			"hp": 78,
-			"at": 84,
-			"df": 78,
-			"sa": 109,
-			"sd": 85,
-			"sp": 100,
+			"at": 121, 
+			"df": 70, 
+			"sa": 121,
+			"sd": 71, 
+			"sp": 109,
 			"sl": 85
 		},
 		"w": 90.5
@@ -1939,15 +1939,15 @@ var POKEDEX_RBY = {
 		"canEvolve": true
 	},
 	"Venusaur": {
-		"t1": "Grass",
-		"t2": "Poison",
-		"bs": {
-			"hp": 80,
-			"at": 82,
-			"df": 83,
-			"sa": 100,
-			"sd": 100,
-			"sp": 80,
+		"t1": "Grass", 
+"t2": "Poison",
+"bs": { 
+"hp": 100, 
+"at": 84, 
+"df": 93, 
+"sa": 107,
+"sd": 106, 
+"sp": 80,
 			"sl": 100
 		},
 		"w": 100.0
@@ -3668,12 +3668,12 @@ var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
 		"t1": "Fire",
 		"t2": "Ground",
 		"bs": {
-			"hp": 70,
-			"at": 100,
-			"df": 70,
-			"sa": 105,
-			"sd": 75,
-			"sp": 40
+			"hp": 105, 
+"at": 115, 
+"df": 120, 
+"sa": 145,
+"sd": 135, 
+"sp": 20
 		},
 		"w": 220.0
 	},
@@ -5277,12 +5277,12 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 		"t1": "Grass",
 		"t2": "Ice",
 		"bs": {
-			"hp": 90,
-			"at": 92,
-			"df": 75,
-			"sa": 92,
-			"sd": 85,
-			"sp": 60
+			"hp": 120, 
+"at": 112, 
+"df": 75, 
+"sa": 112,
+"sd": 85, 
+"sp": 60 
 		},
 		"w": 135.5
 	},
@@ -6217,12 +6217,12 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 		"t1": "Fire",
 		"t2": "Steel",
 		"bs": {
-			"hp": 91,
-			"at": 90,
-			"df": 106,
-			"sa": 130,
-			"sd": 106,
-			"sp": 77
+			"hp": 91, 
+"at": 90, 
+"df": 131, 
+"sa": 130,
+"sd": 131, 
+"sp": 87 
 		},
 		"w": 430.0,
 		"ab": "Flash Fire"
@@ -6892,12 +6892,12 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 		"t1": "Grass",
 		"t2": "Flying",
 		"bs": {
-			"hp": 100,
-			"at": 103,
-			"df": 75,
-			"sa": 120,
-			"sd": 75,
-			"sp": 127
+			"hp": 100, 
+"at": 63, 
+"df": 100, 
+"sa": 160,
+"sd": 100, 
+"sp": 127
 		},
 		"w": 5.2,
 		"ab": "Serene Grace",
@@ -7568,15 +7568,15 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
 		"w": 37.0
 	},
 	"Chandelure": {
-		"t1": "Ghost",
-		"t2": "Fire",
-		"bs": {
-			"hp": 60,
-			"at": 55,
-			"df": 90,
-			"sa": 145,
-			"sd": 90,
-			"sp": 80
+		"t1": "Ghost", 
+"t2": "Fire",
+"bs": { 
+"hp": 100, 
+"at": 50, 
+"df": 95, 
+"sa": 150,
+"sd": 95, 
+"sp": 110 
 		},
 		"w": 34.3
 	},
@@ -7700,14 +7700,15 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
 		"canEvolve": true
 	},
 	"Darmanitan": {
-		"t1": "Fire",
-		"bs": {
-			"hp": 105,
-			"at": 140,
-			"df": 55,
-			"sa": 30,
-			"sd": 55,
-			"sp": 95
+		"t1": "Fire", 
+"t2": "Dark",
+"bs": { 
+"hp": 120, 
+"at": 130, 
+"df": 60, 
+"sa": 5,
+"sd": 60, 
+"sp": 141 
 		},
 		"w": 92.9,
 		"ab": "Sheer Force",
@@ -7717,15 +7718,15 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
 		]
 	},
 	"Darmanitan-Z": {
-		"t1": "Fire",
-		"t2": "Psychic",
-		"bs": {
-			"hp": 105,
-			"at": 30,
-			"df": 105,
-			"sa": 140,
-			"sd": 105,
-			"sp": 55
+		"t1": "Fire", 
+"t2": "Psychic",
+"bs": { 
+"hp": 120, 
+"at": 10, 
+"df": 120, 
+"sa": 150,
+"sd": 120, 
+"sp": 20 
 		},
 		"w": 92.9,
 		"isAlternateForme": true
@@ -10466,12 +10467,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 		"t1": "Grass",
 		"t2": "Ice",
 		"bs": {
-			"hp": 90,
-			"at": 132,
-			"df": 105,
-			"sa": 132,
-			"sd": 105,
-			"sp": 30
+			"hp": 120, 
+"at": 152, 
+"df": 105, 
+"sa": 152,
+"sd": 105, 
+"sp": 30
 		},
 		"w": 185.0,
 		"ab": "Snow Warning",
@@ -10612,12 +10613,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 	"Blastoise-Mega": {
 		"t1": "Water",
 		"bs": {
-			"hp": 79,
-			"at": 103,
-			"df": 120,
-			"sa": 135,
-			"sd": 115,
-			"sp": 78
+			"hp": 98, 
+"at": 121, 
+"df": 140, 
+"sa": 147,
+"sd": 121, 
+"sp": 48
 		},
 		"w": 101.1,
 		"ab": "Mega Launcher",
@@ -10642,12 +10643,12 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 		"t1": "Fire",
 		"t2": "Ground",
 		"bs": {
-			"hp": 70,
-			"at": 120,
-			"df": 100,
-			"sa": 145,
-			"sd": 105,
-			"sp": 20
+"hp": 105, 
+"at": 150, 
+"df": 100, 
+"sa": 180,
+"sd": 105, 
+"sp": 20 
 		},
 		"w": 320.5,
 		"ab": "Sheer Force",
@@ -10658,11 +10659,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 		"t2": "Dragon",
 		"bs": {
 			"hp": 78,
-			"at": 130,
-			"df": 111,
-			"sa": 130,
-			"sd": 85,
-			"sp": 100
+			"at": 160, 
+			"df": 121, 
+			"sa": 121,
+			"sd": 90, 
+			"sp": 109 
 		},
 		"w": 110.5,
 		"ab": "Tough Claws",
@@ -10673,11 +10674,11 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 		"t2": "Flying",
 		"bs": {
 			"hp": 78,
-			"at": 104,
-			"df": 78,
-			"sa": 159,
-			"sd": 115,
-			"sp": 100
+			"at": 121, 
+			"df": 79,
+			"sa": 171,
+			"sd": 121, 
+			"sp": 109
 		},
 		"w": 100.5,
 		"ab": "Drought",
@@ -11179,15 +11180,15 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 		"isAlternateForme": true
 	},
 	"Venusaur-Mega": {
-		"t1": "Grass",
-		"t2": "Poison",
-		"bs": {
-			"hp": 80,
-			"at": 100,
-			"df": 123,
-			"sa": 122,
-			"sd": 120,
-			"sp": 80
+		"t1": "Grass", 
+"t2": "Poison",
+"bs": { 
+"hp": 100, 
+"at": 102, 
+"df": 133, 
+"sa": 129,
+"sd": 126, 
+"sp": 80 
 		},
 		"w": 155.5,
 		"ab": "Thick Fat",
@@ -11950,15 +11951,15 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"gender": "genderless"
 	},
 	"Crabominable": {
-		"t1": "Fighting",
+		"t1": "Fighting", 
 		"t2": "Ice",
-		"bs": {
-			"hp": 97,
-			"at": 132,
-			"df": 77,
-			"sa": 62,
-			"sd": 67,
-			"sp": 43
+"bs": { 
+"hp": 95, 
+"at": 130, 
+"df": 81, 
+"sa": 130,
+"sd": 84, 
+"sp": 100
 		},
 		"w": 180.0
 	},
@@ -12519,12 +12520,12 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"t1": "Fighting",
 		"t2": "Ghost",
 		"bs": {
-			"hp": 90,
-			"at": 125,
-			"df": 80,
-			"sa": 90,
-			"sd": 90,
-			"sp": 125
+			"hp": 115, 
+"at": 160, 
+"df": 80, 
+"sa": 90,
+"sd": 90, 
+"sp": 125 
 		},
 		"w": 22.2,
 		"gender": "genderless"
@@ -12889,14 +12890,15 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"w": 82.8,
 	},
 	"Persian-Alola": {
-		"t1": "Dark",
-		"bs": {
-			"hp": 65,
-			"at": 60,
-			"df": 60,
-			"sa": 75,
-			"sd": 65,
-			"sp": 115
+		"t1": "Normal", 
+"t2": "Ghost",
+"bs": { 
+"hp": 55, 
+"at": 140, 
+"df": 40, 
+"sa": 140,
+"sd": 40, 
+"sp": 140 
 		},
 		"w": 33.0,
 		"isAlternateForme": true
