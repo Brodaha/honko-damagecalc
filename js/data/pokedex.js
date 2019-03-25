@@ -600,15 +600,15 @@ var POKEDEX_RBY = {
 		"canEvolve": true
 	},
 	"Golbat": {
-		"t1": "Poison",
-		"t2": "Flying",
-		"bs": {
-			"hp": 75,
-			"at": 80,
-			"df": 70,
-			"sa": 65,
-			"sd": 75,
-			"sp": 90,
+		"t1": "Poison", 
+"t2": "Flying",
+"bs": { 
+"hp": 150, 
+"at": 85, 
+"df": 75, 
+"sa": 50,
+"sd": 75, 
+"sp": 100,
 			"sl": 75
 		},
 		"w": 55.0,
@@ -951,15 +951,15 @@ var POKEDEX_RBY = {
 		"canEvolve": true
 	},
 	"Lapras": {
-		"t1": "Water",
-		"t2": "Ice",
-		"bs": {
-			"hp": 130,
-			"at": 85,
-			"df": 80,
-			"sa": 85,
-			"sd": 95,
-			"sp": 60,
+		"t1": "Water", 
+"t2": "Ice",
+"bs": { 
+"hp": 130, 
+"at": 95, 
+"df": 110, 
+"sa": 115,
+"sd": 130, 
+"sp": 50,
 			"sl": 95
 		},
 		"w": 220.0
@@ -2285,15 +2285,15 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
 		"w": 5.0
 	},
 	"Crobat": {
-		"t1": "Poison",
-		"t2": "Flying",
-		"bs": {
-			"hp": 85,
-			"at": 90,
-			"df": 80,
-			"sa": 70,
-			"sd": 80,
-			"sp": 130
+		"t1": "Poison", 
+"t2": "Flying",
+"bs": { 
+"hp": 170, 
+"at": 95, 
+"df": 85, 
+"sa": 55,
+"sd": 85, 
+"sp": 145 
 		},
 		"w": 75.0
 	},
@@ -2675,15 +2675,15 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
 		"canEvolve": true
 	},
 	"Lugia": {
-		"t1": "Psychic",
-		"t2": "Flying",
-		"bs": {
-			"hp": 106,
-			"at": 90,
-			"df": 130,
-			"sa": 90,
-			"sd": 154,
-			"sp": 110
+		"t1": "Psychic", 
+"t2": "Flying",
+"bs": { 
+"hp": 115, 
+"at": 60, 
+"df": 130, 
+"sa": 90,
+"sd": 175, 
+"sp": 110 
 		},
 		"w": 216.0,
 		"gender": "genderless"
@@ -3438,14 +3438,14 @@ var POKEDEX_GSC = $.extend(true, {}, POKEDEX_RBY, {
 
 var POKEDEX_ADV = $.extend(true, {}, POKEDEX_GSC, {
 	"Absol": {
-		"t1": "Dark",
-		"bs": {
-			"hp": 65,
-			"at": 130,
-			"df": 60,
-			"sa": 75,
-			"sd": 60,
-			"sp": 75
+		"t1": "Dark", 
+"bs": { 
+"hp": 95, 
+"at": 135, 
+"df": 80, 
+"sa": 75,
+"sd": 80, 
+"sp": 80 
 		},
 		"w": 47.0
 	},
@@ -6442,15 +6442,15 @@ var POKEDEX_DPP = $.extend(true, {}, POKEDEX_ADV, {
 		"gender": "genderless"
 	},
 	"Mamoswine": {
-		"t1": "Ice",
-		"t2": "Ground",
-		"bs": {
-			"hp": 110,
-			"at": 130,
-			"df": 80,
-			"sa": 70,
-			"sd": 60,
-			"sp": 80
+		"t1": "Ice", 
+"t2": "Ground",
+"bs": { 
+"hp": 125, 
+"at": 155, 
+"df": 80, 
+"sa": 59,
+"sd": 90, 
+"sp": 91 
 		},
 		"w": 291.0
 	},
@@ -8403,15 +8403,15 @@ var POKEDEX_BW = $.extend(true, {}, POKEDEX_DPP, {
 		"w": 68.0
 	},
 	"Landorus-Therian": {
-		"t1": "Ground",
-		"t2": "Flying",
-		"bs": {
-			"hp": 89,
-			"at": 145,
-			"df": 90,
-			"sa": 105,
-			"sd": 80,
-			"sp": 91
+		"t1": "Ground", 
+"t2": "Flying",
+"bs": { 
+"hp": 89, 
+"at": 150, 
+"df": 90, 
+"sa": 100,
+"sd": 80, 
+"sp": 131 
 		},
 		"w": 68.0,
 		"ab": "Intimidate"
@@ -10478,14 +10478,15 @@ var POKEDEX_XY = $.extend(true, {}, POKEDEX_BW, {
 		"isAlternateForme": true
 	},
 	"Absol-Mega": {
-		"t1": "Dark",
-		"bs": {
-			"hp": 65,
-			"at": 150,
-			"df": 60,
-			"sa": 115,
-			"sd": 60,
-			"sp": 115
+		"t1": "Dark", 
+"t2": "Normal",
+"bs": { 
+"hp": 95, 
+"at": 155, 
+"df": 80, 
+"sa": 115,
+"sd": 80, 
+"sp": 120 
 		},
 		"w": 49.0,
 		"ab": "Magic Bounce",
@@ -11797,15 +11798,15 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"w": 135.0,
 	},
 	"Blacephalon": {
-		"t1": "Fire",
-		"t2": "Ghost",
-		"bs": {
-			"hp": 53,
-			"at": 127,
-			"df": 53,
-			"sa": 151,
-			"sd": 79,
-			"sp": 107
+		"t1": "Fire", 
+"t2": "Fairy",
+"bs": { 
+"hp": 59, 
+"at": 127, 
+"df": 59, 
+"sa": 163,
+"sd": 79, 
+"sp": 113 
 		},
 		"w": 13.0,
 		"ab": "Beast Boost",
@@ -12143,15 +12144,15 @@ var POKEDEX_SM = $.extend(true, {}, POKEDEX_XY, {
 		"isAlternateForme": true
 	},
 	"Golisopod": {
-		"t1": "Bug",
-		"t2": "Water",
-		"bs": {
-			"hp": 75,
-			"at": 125,
-			"df": 140,
-			"sa": 60,
-			"sd": 90,
-			"sp": 40
+		"t1": "Bug", 
+"t2": "Water",
+"bs": { 
+"hp": 120, 
+"at": 135, 
+"df": 145, 
+"sa": 80,
+"sd": 80, 
+"sp": 65 
 		},
 		"w": 108.0
 	},
